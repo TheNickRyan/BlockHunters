@@ -1,4 +1,4 @@
-package io.github.thenickryan.blockhunters.events;
+package blockhunters.events;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.Event;

@@ -1,9 +1,9 @@
-package io.github.thenickryan.blockhunters.events;
+package blockhunters.events;
 
-import io.github.thenickryan.blockhunters.BackgroundTimer;
-import io.github.thenickryan.blockhunters.BlockHunters;
-import io.github.thenickryan.blockhunters.CountdownTimer;
-import io.github.thenickryan.blockhunters.items.ItemManager;
+import blockhunters.BackgroundTimer;
+import blockhunters.BlockHunters;
+import blockhunters.CountdownTimer;
+import blockhunters.items.ItemManager;
 import org.bukkit.*;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
@@ -17,7 +17,7 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import java.util.*;
 
-import static io.github.thenickryan.blockhunters.BlockHunters.*;
+import static blockhunters.BlockHunters.*;
 
 public class EventManager implements Listener {
 
@@ -387,7 +387,7 @@ public class EventManager implements Listener {
 
     //populate blockNames map
     private static void generateBlockNames() {
-        String blockName = "";
+        String blockName;
 
         //sort materials
         for (Material m : blocks) {

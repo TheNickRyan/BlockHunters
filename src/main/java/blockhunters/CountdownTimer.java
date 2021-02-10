@@ -1,7 +1,6 @@
-package io.github.thenickryan.blockhunters;
+package blockhunters;
 
-import io.github.thenickryan.blockhunters.events.NewBlockEvent;
-import org.bukkit.Bukkit;
+import blockhunters.events.NewBlockEvent;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;

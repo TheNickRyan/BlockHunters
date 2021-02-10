@@ -1,15 +1,13 @@
-package io.github.thenickryan.blockhunters.events;
+package blockhunters.events;
 
-import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
-public class CheckBlockEvent extends Event {
+public class PvpStopEvent extends Event {
 
     private static final HandlerList HANDLERS = new HandlerList();
 
-    public CheckBlockEvent() {
-        super();
+    public PvpStopEvent() {
     }
 
     public HandlerList getHandlers() {

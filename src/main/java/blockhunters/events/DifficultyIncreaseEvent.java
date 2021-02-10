@@ -1,13 +1,13 @@
-package io.github.thenickryan.blockhunters.events;
+package blockhunters.events;
 
-import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
-public class ClassicStopEvent extends Event {
+public class DifficultyIncreaseEvent {
 
     private static final HandlerList HANDLERS = new HandlerList();
 
-    public ClassicStopEvent() {
+    public DifficultyIncreaseEvent() {
+        super();
     }
 
     public HandlerList getHandlers() {

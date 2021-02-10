@@ -1,12 +1,13 @@
-package io.github.thenickryan.blockhunters.events;
+package blockhunters.events;
 
+import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
-public class DifficultyIncreaseEvent {
+public class CheckBlockEvent extends Event {
 
     private static final HandlerList HANDLERS = new HandlerList();
 
-    public DifficultyIncreaseEvent() {
+    public CheckBlockEvent() {
         super();
     }
 

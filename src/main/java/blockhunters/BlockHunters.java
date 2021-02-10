@@ -1,12 +1,13 @@
-package io.github.thenickryan.blockhunters;
+package blockhunters;
 
-import io.github.thenickryan.blockhunters.commands.CommandManager;
-import io.github.thenickryan.blockhunters.events.EventManager;
+import blockhunters.commands.CommandManager;
+import blockhunters.events.EventManager;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class BlockHunters extends JavaPlugin {
 
@@ -24,7 +25,7 @@ public class BlockHunters extends JavaPlugin {
     public void onEnable() {
         loadFromConfig();
         getServer().getPluginManager().registerEvents(new EventManager(this), this);
-        this.getCommand("blockhunters").setExecutor(new CommandManager());
+        Objects.requireNonNull(this.getCommand("blockhunters")).setExecutor(new CommandManager());
     }
 
     @Override

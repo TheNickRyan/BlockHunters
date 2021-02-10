@@ -1,10 +1,10 @@
-package io.github.thenickryan.blockhunters.commands;
+package blockhunters.commands;
 
-import io.github.thenickryan.blockhunters.BlockHunters;
-import io.github.thenickryan.blockhunters.events.ClassicStartEvent;
-import io.github.thenickryan.blockhunters.events.ClassicStopEvent;
-import io.github.thenickryan.blockhunters.events.EventManager;
-import io.github.thenickryan.blockhunters.events.PvpStartEvent;
+import blockhunters.BlockHunters;
+import blockhunters.events.ClassicStartEvent;
+import blockhunters.events.ClassicStopEvent;
+import blockhunters.events.EventManager;
+import blockhunters.events.PvpStartEvent;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;

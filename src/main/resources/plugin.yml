@@ -1,7 +1,7 @@
 name: BlockHunters
 version: 1.0
 author: Nick Ryan
-main: io.github.thenickryan.blockhunters.BlockHunters
+main: blockhunters.BlockHunters
 api-version: 1.16
 commands:
   blockhunters:
