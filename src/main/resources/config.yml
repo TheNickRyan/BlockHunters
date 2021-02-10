@@ -1,0 +1,131 @@
+materials:
+  banned:
+    - AIR
+    - NETHERITE_BLOCK
+    - COMMAND_BLOCK
+    - BUBBLE
+    - BEACON
+    - BARRIER
+    - STRUCTURE_VOID
+    - STRUCTURE_BLOCK
+    - JIGSAW_BLOCK
+    - SPAWNER
+    - RESPAWN_ANCHOR
+    - PISTON_HEAD
+    - MOVING_PISTON
+    - LODESTONE
+    - CONDUIT
+    - VINES
+    - CORAL
+    - SAPLING
+    - GRASS
+    - SUGAR_CANE
+    - COCOA
+    - POTATOES
+    - CARROTS
+    - BEETROOTS
+    - WHEAT
+    - STEM
+    - BAMBOO
+    - BUSH
+    - LILY_PAD
+    - FERN
+    - BROWN_MUSHROOM
+    - RED_MUSHROOM
+    - KELP
+    - SEAGRASS
+    - FLOWER
+    - FUNGI
+    - ROOTS
+    - WART
+    - SPROUTS
+    - PLATE
+    - TURTLE_EGG
+    - PICKLE
+    - POT
+    - HEAD
+    - NETHER_PORTAL
+    - END_PORTAL
+    - END_GATEWAY
+    - LANTERN
+    - BLUE_ICE
+    - FROSTED_ICE
+    - DOOR
+    - SIGN
+    - BANNER
+    - BEE
+    - HONEY
+    - TORCH
+    - REPEATER
+    - COMPARATOR
+    - HOOK
+    - LEVER
+    - BUTTON
+    - TRAPDOOR
+    - INFESTED
+
+  rare:
+    - EMERALD_BLOCK
+    - DIAMOND_BLOCK
+    - GOLD_BLOCK
+    - IRON_BLOCK
+    - ANVIL
+    - LOOM
+    - LECTERN
+    - JUKEBOX
+    - TARGET
+
+  epic:
+    - CAKE
+    - SCAFFOLDING
+    - DAYLIGHT_DETECTOR
+    - DRIED_KELP
+    - ENDER_CHEST
+    - NETHERITE
+
+  legendary:
+    - SHULKER
+    - ANCIENT_DEBRIS
+    - PURPUR
+    - CHORUS
+    - END_ROD
+    - DRAGON_EGG
+
+  overworld:
+    - BELL
+    - RED_SAND
+    - RED_SANDSTONE
+    - TERRACOTTA
+    - SPONGE
+    - SLIME
+    - PRISMARINE
+    - SEA_LANTERN
+    - PACKED_ICE
+
+  nether:
+    - CRIMSON
+    - WARPED
+    - SHROOMLIGHT
+    - GLOWSTONE
+    - SOUL
+    - BLACKSTONE
+    - BASALT
+    - CRYING_OBSIDIAN
+    - QUARTZ
+    - NETHER
+
+  end:
+    - END_STONE
+
+classic:
+  roundTimer: 5
+  gracePeriod: 3
+  lives: 3
+
+pvp:
+  roundTimer: 5
+  gracePeriod: 3
+  lives: 3
+
+options:
+  dragon: true
