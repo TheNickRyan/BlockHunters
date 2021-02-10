@@ -1,2 +1,2 @@
-# BlockHunters
-BlockHunters Plugin for Minecraft 1.16+ Spigot Servers
+# BlockHunters v1.0
+BlockHunters Plugin Open Source Code Repository
