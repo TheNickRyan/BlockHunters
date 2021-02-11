@@ -1,8 +1,9 @@
 package blockhunters.events;
 
+import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
-public class DifficultyIncreaseEvent {
+public class DifficultyIncreaseEvent extends Event {
 
     private static final HandlerList HANDLERS = new HandlerList();
 
