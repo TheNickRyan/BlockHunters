@@ -17,9 +17,6 @@
       "get": {
         "summary": "Details about a block",
         "operationId": "listBlock",
-        "tags": [
-          "block"
-        ],
         "parameters": [
           {
             "name": "id",
