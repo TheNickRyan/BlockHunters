@@ -78,9 +78,6 @@
           },
           "name": {
             "type": "string"
-          },
-          "tag": {
-            "type": "string"
           }
         }
       },
